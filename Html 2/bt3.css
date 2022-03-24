@@ -1,0 +1,24 @@
+body{
+    font: size 1rem;
+    font-family: Arial;
+    color:gray;
+}
+#container
+{
+    margin:auto;
+    max-width: 1240px;
+}
+#container
+{
+    color:#999a9c;
+}
+#container
+{
+    display:flex;
+}
+#container .content .net
+{
+    max-width: 480px;
+    margin:10px;
+    padding-right: 10px;
+}

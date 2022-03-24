@@ -1,0 +1,140 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+*{
+	margin: 0px;
+	padding:  0px;
+	box-sizing: content-box;
+}
+body{
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #323337;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.container{
+	margin: 0px auto;
+	max-width: 1250px;
+}
+header{
+	width: 100%;
+	height: 65px;
+}
+header .container{
+	display: flex;
+	align-items: center;
+}
+header .container .logo{
+	width: 25%;
+}
+header .container .logo a{
+	color: #3ab879;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+header .container .Menu{
+	width: 60%;
+}
+header .container .Menu ul{
+	display: flex;
+}
+header .container .Menu ul li a{
+	padding: 0px 20px 0px 20px;
+	text-transform: uppercase;
+}
+header .container .Menu ul li a:hover{
+	color:#3ab879;
+}
+header .container .sidebar-top{
+	display: flex;
+}
+header .container .sidebar-top a{
+	display: block;
+	width: 50px;
+	position: relative;
+}
+header .container .sidebar-top a span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #3ab879;
+	position: absolute;
+	top: -15px;
+	left: 15px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+#slider .slider-item{
+	width: 100%;
+	height: 800px;
+}
+.slider-item h2{
+	position: absolute;
+	top: 45%;
+	left: 8%;
+	font-size: 3rem;
+	text-transform: uppercase;
+
+}
+.slider-item h2 small{
+	display: block;
+	color:  #3ab879 ;
+}
+    </style>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="logo">
+				<a href="#"> Suntech Viet Nam </a>
+			</div>
+			<div class="Menu">
+				<ul>
+					<li><a href=""> Home </a></li>
+					<li><a href=""> Women </a></li>
+					<li><a href=""> Men </a></li>
+					<li><a href=""> Kids </a></li>
+					<li><a href=""> Jewellery </a></li>
+					<li><a href=""> Accessories </a></li>
+				</ul>
+			</div>
+			<div id="sidebar-top">
+				<a href="" class="icon_cart">
+					<img src="cart_icon.png">
+					<span> 5 </span>
+				</a>
+				<a href="" class="icon_cart">
+					<img src="search_icon.png">
+				</a>
+				<a href="" class="icon_cart">
+					<img src="menu.png">
+				</a>
+			</div>
+		</div>
+	</header>
+	<section class="slider">
+		<div class="slider-item">
+			<h2>
+				The Best 
+				<small> Woocommerce </small>
+			</h2>
+			<img src="banner.jpg">
+		</div>
+	</section>
+</body>
+</html>
